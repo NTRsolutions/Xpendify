@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+    <com.samsoft.xpendify.widget.others.Money
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:amount="1256.56"
+        app:baseTextColor="#FBFFE3"
+        app:baseTextSize="70sp"
+        app:decimalDigitsTextSize="30sp"
+        app:decimalMargin="6dp"
+        app:includeDecimalSeparator="true"
+        app:symbol="$"
+        app:symbolGravity="start|bottom"
+        app:symbolMargin="6dp"
+        app:symbolTextSize="30sp" />
+
+</LinearLayout>

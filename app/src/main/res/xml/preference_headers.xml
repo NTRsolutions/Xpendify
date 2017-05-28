@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header
+        android:fragment="com.samsoft.xpendify.activity.settings.SettingsActivity$SettingsFragment"
+        android:icon="@null"
+        android:summary="An example of some preferences."
+        android:title="GENERAL">
+        <extra
+            android:name="PAGE"
+            android:value="P1" />
+    </header>
+
+    <header
+        android:fragment="com.samsoft.xpendify.activity.settings.SettingsActivity$SettingsFragment"
+        android:icon="@null"
+        android:summary="An example of some preferences."
+        android:title="SUMMARY">
+        <extra
+            android:name="PAGE"
+            android:value="P2" />
+    </header>
+
+    <header
+        android:fragment="com.samsoft.xpendify.activity.settings.SettingsActivity$SettingsFragment"
+        android:icon="@null"
+        android:summary="An example of some preferences."
+        android:title="BUDGET">
+        <extra
+            android:name="PAGE"
+            android:value="P3" />
+    </header>
+
+    <header
+        android:fragment="com.samsoft.xpendify.activity.settings.SettingsActivity$SettingsFragment"
+        android:icon="@null"
+        android:summary="An example of some preferences."
+        android:title="REPORT">
+        <extra
+            android:name="PAGE"
+            android:value="P4" />
+    </header>
+
+    <header
+        android:fragment="com.samsoft.xpendify.activity.settings.SettingsActivity$SettingsFragment"
+        android:icon="@null"
+        android:summary="An example of some preferences."
+        android:title="SECURITY">
+        <extra
+            android:name="PAGE"
+            android:value="P5" />
+    </header>
+
+    <header
+        android:icon="@null"
+        android:summary="SETUP CATEGORY"
+        android:title="CATEGORY">
+        <intent android:action="com.samsoft.xpendify.activity.CategoryActivity" />
+    </header>
+</preference-headers>

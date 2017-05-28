@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="GENERAL SETTINGS">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/currency_code"
+            android:entryValues="@array/currency_code_values"
+            android:key="pref_currency"
+            android:summary="%s"
+            android:title="CURRENCY" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/date_formats"
+            android:entryValues="@array/date_formats_values"
+            android:key="pref_date_format"
+            android:summary="%s"
+            android:title="DATE FORMAT" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/pref_tip_of_the_day"
+            android:summaryOff="OFF"
+            android:summaryOn="ON"
+            android:title="TIPS OF THE DAY" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/bills_display"
+            android:entryValues="@array/bills_display_values"
+            android:key="pref_bills_display"
+            android:summary="%s"
+            android:title="BILLS DISPLAY" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

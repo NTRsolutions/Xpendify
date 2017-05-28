@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="SECURITY SETTINGS">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="pref_passcode"
+            android:summary="SECURITY"
+            android:summaryOff="OFF"
+            android:summaryOn="ON"
+            android:title="PASSCODE" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

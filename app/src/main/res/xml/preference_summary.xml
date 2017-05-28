@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="SUMMARY SETTINGS">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/trans"
+            android:entryValues="@array/trans_values"
+            android:key="pref_summary_display"
+            android:summary="%s"
+            android:title="SHOW SUMMARY" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/spending"
+            android:entryValues="@array/spending_values"
+            android:key="pref_spending_display"
+            android:summary="%s"
+            android:title="SHOW SPENDING" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/first_day_of_week"
+            android:entryValues="@array/first_day_of_week_values"
+            android:key="pref_first_day_of_week"
+            android:summary="%s"
+            android:title="FIRST DAY OF WEEK" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

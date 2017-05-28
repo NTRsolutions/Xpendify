@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="REPORT SETTINGS">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/spending"
+            android:entryValues="@array/spending_values"
+            android:key="pref_report_display"
+            android:summary="%s"
+            android:title="SHOW REPORTS" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

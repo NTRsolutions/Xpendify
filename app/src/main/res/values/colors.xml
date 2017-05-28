@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="accentColor">#3E2723</color>
+    <color name="primaryColor">#795548</color>
+    <color name="primaryDarkColor">#5D4037</color>
+    <color name="divideColor">#B6B6B6</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="default_text_button_color">#009688</color>
+
+</resources>

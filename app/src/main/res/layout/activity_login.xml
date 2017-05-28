@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.miscellaneous.LockActivity">
+
+    <TextView
+        android:id="@id/pattern_info"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/app_view"
+        android:layout_centerHorizontal="true"
+        android:freezesText="true"
+        android:gravity="center"
+        android:text="@string/draw_pattern"
+        android:textSize="18sp" />
+
+    <com.samsoft.xpendify.widget.others.AppView
+        android:id="@id/app_view"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        app:appview_autoLink="true"
+        app:appview_enableVibrate="true"
+        app:appview_lineColor="@color/primaryColor"
+        app:appview_lineWidth="4dp"
+        app:appview_nodeAreaExpand="24dp"
+        app:appview_nodeOnAnim="@anim/node_on_2"
+        app:appview_nodeOnSrc="@drawable/node_small_active"
+        app:appview_nodeSize="16dp"
+        app:appview_nodeSrc="@drawable/node_small_normal"
+        app:appview_vibrateTime="20" />
+
+</RelativeLayout>

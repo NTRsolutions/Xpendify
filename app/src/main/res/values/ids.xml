@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerView" type="id" />
+    <item name="swipeRefreshLayout" type="id" />
+    <item name="toolbar" type="id" />
+
+    <item name="category" type="id" />
+    <item name="date" type="id" />
+    <item name="note" type="id" />
+    <item name="amount_spent" type="id" />
+    <item name="actionButton" type="id" />
+    <item name="pie_chart" type="id" />
+
+    <item name="nav_content" type="id" />
+
+    <item name="collapsing_toolbar" type="id" />
+    <item name="coordinating_layout" type="id" />
+    <item name="app_bar_layout" type="id" />
+
+    //Lock Activity
+    <item name="lock_pattern_view" type="id" />
+    <item name="pattern_info" type="id" />
+
+    //main activity menu item
+    <item name="action_entry" type="id" />
+    <item name="action_search" type="id" />
+    <item name="action_settings" type="id" />
+    <item name="action_about" type="id" />
+    <item name="action_help" type="id" />
+
+    //Account Activity
+    <item name="account_balance" type="id" />
+    <item name="bank_name" type="id" />
+    <item name="account_number" type="id" />
+    <item name="account_type" type="id" />
+
+    /Bills Activity
+    <item name="bill_category" type="id" />
+    <item name="bill_amount" type="id" />
+    <item name="bill_due_date" type="id" />
+    <item name="bill_note" type="id" />
+    <item name="isPaid" type="id" />
+
+    //Budget Activity
+    <item name="budget_amount" type="id" />
+    <item name="budget_category" type="id" />
+
+
+    <item name="tvInfo" type="id" />
+
+    <item name="app_view" type="id" />
+
+    <item name="nestedScrollView" type="id"/>
+
+    <item name="navSpinner" type="id"/>
+
+
+    <item name="action_analysis" type="id"/>
+
+</resources>
